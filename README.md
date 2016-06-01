@@ -3,14 +3,14 @@
 ##Lucee Application Template for Heroku
 Blank application template to deploy Lucee 4.5.x (CFML/Java) apps on Heroku.
 
-### NOTE: **_NO LONGER MAINTAINED_** - Deprecated in favor of the [Lucee 5 version](https://github.com/writecodedrinkcoffee/lucee5-heroku)
+### NOTE: **_NO LONGER MAINTAINED_** - Deprecated in favor of the [Lucee 5 version](https://github.com/mikesprague/lucee5-heroku)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 Demo: [https://lucee.herokuapp.com/](https://lucee.herokuapp.com/)
 
 ####Credits/Notes:
-This began as a fork of Chris Blackwell's [railo-heroku-template](https://github.com/d1rtym0nk3y/railo-heroku-template) project. Recently, after [converting my fork of that project to Lucee](https://github.com/writecodedrinkcoffee/lucee-heroku-template/tree/905e19a9d863c504a86cd6a764a7a33805649546), I decided it had diverged enough to become it's own project and moved it to this repo. Many thanks to Chris for all of his original work and for inspiring this updated project for Lucee applications.
+This began as a fork of Chris Blackwell's [railo-heroku-template](https://github.com/d1rtym0nk3y/railo-heroku-template) project. Recently, after [converting my fork of that project to Lucee](https://github.com/mikesprague/lucee-heroku-template/tree/905e19a9d863c504a86cd6a764a7a33805649546), I decided it had diverged enough to become it's own project and moved it to this repo. Many thanks to Chris for all of his original work and for inspiring this updated project for Lucee applications.
 
 This project uses the [cfmlprojects.org](http://cfmlprojects.org/artifacts/org/lucee/) Maven repo maintained by [Denny Valliant](https://github.com/denuno). Many thanks to Denny for his work maintaining cfmlprojects.org.
 
@@ -22,7 +22,7 @@ This project uses the [cfmlprojects.org](http://cfmlprojects.org/artifacts/org/l
 To get started, run the following commands in GitBash (or your terminal of preference):
 
 ```bash
-$ git clone https://github.com/writecodedrinkcoffee/lucee-heroku.git
+$ git clone https://github.com/mikesprague/lucee-heroku.git
 $ cd lucee-heroku
 $ mvn package
 $ foreman start
